@@ -5,17 +5,17 @@ from scripts.emailer import Emailer
 domains = ["example.com", "example.com.au"]
 
 # Enter your email username (must be gmail)
-sender_email = "x"
+sender_email = ""
 
 # Enter your gmail app-specific password
-sender_password = "x"
+sender_password = ""
 
 # Enter notification receiving email address
-receiver_email = "x"
+receiver_email = ""
 
 # Enter GoDaddy API key details
-godaddy_api = "x"
-godaddy_secret = "x"
+godaddy_api = ""
+godaddy_secret = ""
 
 
 for i in domains:
