@@ -1,5 +1,5 @@
 # Domain Sniper: Python
-This python application checks whether domains are available for purchase. If they are available, it sends an email notifying the user.
+This python application checks whether domains are available for purchase. If they are available, it sends an email to notify the user.
 
 ## Requirements
 - Python3: [python.org/downloads](https://www.python.org/downloads/)
