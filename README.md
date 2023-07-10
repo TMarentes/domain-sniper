@@ -22,4 +22,4 @@ Execute "python3 main.py" to run the sniper.
 <br>
 
 ## Continuous Running
-Using [PythonAnywhere](https://pythonanywhere.com/), the script can run 24/7. This is done using the "task" function in PythonAnywhere. 
+Using [PythonAnywhere](https://pythonanywhere.com/), the script can run 24/7 - this is done using the "task" function. 
