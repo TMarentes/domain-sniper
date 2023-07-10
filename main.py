@@ -1,5 +1,5 @@
-from checker import Checker
-from emailer import Emailer
+from scripts.checker import Checker
+from scripts.emailer import Emailer
 
 domains = ["example.com", "example.com.au"]
 
