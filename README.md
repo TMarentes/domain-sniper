@@ -1,4 +1,4 @@
-# Domain Sniper: Python Application
+# Domain Sniper - Python Application
 This python application checks whether domains are available for purchase using the Wix API and the GoDaddy API. If they are available, it sends an email to notify the user.
 
 ## Requirements
