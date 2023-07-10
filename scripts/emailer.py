@@ -1,12 +1,12 @@
 import smtplib, ssl
 
 class Emailer:
-    def send_email(domain):
-        port = 465  # For SSL
+    def send_email(domain, sender, receiver, sender_password):
+        port = 465  
         smtp_server = "smtp.gmail.com"
-        sender_email = "x@gmail.com"  # Enter your address
-        receiver_email = "x@gmail.com"  # Enter receiver address
-        password = "x"
+        sender_email = sender  
+        receiver_email = receiver 
+        password = sender_password
         message = f"""\
         From: Python
 
