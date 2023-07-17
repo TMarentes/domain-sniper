@@ -1,5 +1,5 @@
-from scripts.checker import Checker
-from scripts.emailer import Emailer
+
+from scripts.logic import Logic
 
 # Enter the domains you wish to snipe
 domains = ["example.com", "example.com.au"]
@@ -18,9 +18,7 @@ godaddy_api = ""
 godaddy_secret = ""
 
 
-for i in domains:
-    if Checker.check_godaddy(i, godaddy_api, godaddy_secret):
-        Emailer.send_email(i, sender_email, receiver_email, sender_password)
+Logic.logic(domains, godaddy_api, godaddy_secret, sender_email, receiver_email, sender_password)
 
 
 
