@@ -7,10 +7,7 @@ class Emailer:
         sender_email = sender  
         receiver_email = receiver 
         password = sender_password
-        message = f"""\
-        From: Python
-
-
+        message = f"""
         {domain} is now available!"""
 
         context = ssl.create_default_context()
