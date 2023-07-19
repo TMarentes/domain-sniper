@@ -10,7 +10,7 @@ class Emailer:
         receiver_email = receiver 
         password = sender_password
         msg = EmailMessage()
-        msg.set_content(f'{domain} is now available!')
+        msg.set_content(f'Alert: {domain} is now available!')
 
         msg['Subject'] = f'{domain} is now available!'
         msg['From'] = sender_email
