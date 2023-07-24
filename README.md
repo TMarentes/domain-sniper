@@ -13,11 +13,11 @@ This python application checks whether domains are available for purchase using 
 ## Installation 
 Using the python domain sniper requires a Gmail app specific password: [support.google.com](https://support.google.com/accounts/answer/185833)
 
-Input each value into the main.py file:
+1. Input each value into the main.py file:
 
 ![inputs in main.py file](img/mainpy.jpg)
 
-Execute "python3 main.py" to run the sniper.
+2. Execute "python3 main.py" to run the sniper.
 
 All of the packages used in the application are default Python packages. There is no installation required as long as you have Python 3.
 
